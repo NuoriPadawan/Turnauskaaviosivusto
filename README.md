@@ -1,0 +1,1 @@
+Tämä sivusto sisältää yksinkertaisen turnauspelikaaviomuodon.
