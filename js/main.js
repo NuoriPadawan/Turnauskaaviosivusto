@@ -146,7 +146,7 @@ function checkTournamentComplete() {
     const finalRound = tournament.rounds[tournament.rounds.length - 1];
     if (finalRound[0].winner) {
         const winner = finalRound[0].winner;
-        document.getElementById('winnerText').textContent = `🎉 ${winner} on turnaukseni voittaja! 🎉`;
+        document.getElementById('winnerText').textContent = ` ${winner} on voittaja! `;
         document.getElementById('winnerSection').classList.add('show');
     }
 }
